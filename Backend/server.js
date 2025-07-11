@@ -37,10 +37,10 @@ app.use(morgan('dev'));
 
 // CORS configuration
 const allowedOrigins = [
-  'http://44.223.23.145:8031',
-  'http://44.223.23.145:8032',
-  'http://44.223.23.145:8033',
-  'http://44.223.23.145:3408',
+  'http://13.60.183.62:8151',
+  'http://13.60.183.62:8152',
+  'http://13.60.183.62:8153',
+  'http://13.60.183.62:3091',
   'http://localhost:8031',
   'http://localhost:8032',
   'http://localhost:8033',
@@ -549,5 +549,5 @@ app.use((err, req, res, next) => {
 
 // Start server
 app.listen(port, () => {
-  console.log(`Server running at http://44.223.23.145:${port}`);
+  console.log(`Server running at http://13.60.183.62:${port}`);
 });
